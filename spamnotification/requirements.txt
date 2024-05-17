@@ -1,5 +1,5 @@
 joblib==1.0.0
-scikit-learn[full]==1.0.0
+scikit-learn==1.0.0
 streamlit==1.0.0
 pandas==2.2.2
 nltk==3.8.1
