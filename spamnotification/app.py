@@ -7,7 +7,7 @@ import random
 model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
 
 # Load the CSV file containing messages
-messages_df = pd.read_csv("new_spam.csv")
+messages_df = pd.read_csv("spamnotification/new_spam.csv")
 
 # Function to detect spam
 def detect_spam(message):
