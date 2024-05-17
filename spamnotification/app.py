@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the serialized model
-model = joblib.load("spam_classification_pipeline.pkl")
+model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
 
 
 # Function to detect spam
