@@ -3,8 +3,13 @@ import joblib
 import pandas as pd
 import random
 
+import os
+model_path = os.path.join(os.getcwd(), "spamnotification", "spam_classification_pipeline.pkl")
+model = joblib.load(model_path)
+
+
 # Load the serialized model
-model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
+# model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
 
 # Load the CSV file containing messages
 messages_df = pd.read_csv("new_spam.csv")
