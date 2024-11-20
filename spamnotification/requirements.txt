@@ -3,7 +3,5 @@ scikit-learn==1.2.0
 streamlit==1.22.0
 pandas==2.2.2
 nltk==3.8.1
-tensorflow
-xgboost
-numpy
+
 
