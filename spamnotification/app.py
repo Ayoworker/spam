@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import random
-from custom_transformers1 import TextPreprocessor, LSTMFeatureExtractor 
+# from custom_transformers1 import TextPreprocessor, LSTMFeatureExtractor 
 
 # Load the serialized model
 model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
