@@ -2,13 +2,12 @@ import streamlit as st
 import joblib
 import pandas as pd
 import random
-# from custom_transformers1 import TextPreprocessor, LSTMFeatureExtractor 
 
 # Load the serialized model
-model = joblib.load("spamnotification/spam_classification_pipeline.pkl")
+model = joblib.load("spam_classification_pipeline.pkl")
 
 # Load the CSV file containing messages
-messages_df = pd.read_csv("spamnotification/new_spam.csv")
+messages_df = pd.read_csv("new_spam.csv")
 
 # Function to detect spam
 def detect_spam(message):
